@@ -1,0 +1,124 @@
+
+body{
+    background-color: blue;
+}
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container02{
+    display: flex;
+    justify-content: center;
+}
+.container21{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+}
+.container21 img{
+    font-size: 5em;
+    height: 150px;
+    width: 150px;
+    margin-top: 50px;
+}
+.Weather{
+    margin-top: 12em;
+}
+.searchbar{
+    display: flex;
+    justify-content: center;
+}
+
+.Weather h1 {
+    color: white;
+    font-size: 4em;
+    text-align: center;
+}
+.Weather input{
+    border-style: none;
+    height: 3em;
+    width: 20em;  
+    border-radius: 1.6em;
+}
+input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    padding: 10px;
+    font-weight: 14px;
+    background-color: white;
+}
+button{
+    border-radius:40px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 1px 20px;
+    border: none;
+    outline: none;
+    background: aqua;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    margin-left: -40px;
+}
+.city{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    margin-top: -30px;
+}
+.temp{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+}
+.container3{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: -50px;
+}
+.Humidity{
+    margin-top: -30px;
+}
+.WindSpeed{
+    margin-top: -30px;
+}
+.discreption{
+    margin-top: -30px;
+}
+.WeatherLive{
+    display: none;
+}
+
+.combo img{
+    width: 60px;
+    height: 60px;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+.combo{
+    display: flex;
+}
+@media (max-width: 700px) {
+    .container3{
+        flex-direction: column;
+    }
+    .container2{
+        flex-direction: column;
+    }
+}
+@media (max-width: 1024px) {
+    .container3{
+        flex-direction: column;
+    }
+}
