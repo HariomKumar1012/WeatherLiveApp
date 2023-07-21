@@ -53,6 +53,7 @@ input{
 }
 button{
     border-radius:40px;
+    height: 40px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     padding: 1px 20px;
